@@ -2,7 +2,9 @@
  ["src" "tests" "resources"]
 
  :deps
- {org.clojure/clojurescript {:mvn/version "1.10.597"}}
+ {org.clojure/clojurescript {:mvn/version "1.10.597"}
+
+  com.bhauman/figwheel-main {:mvn/version "0.2.3"}}
 
  :aliases
  {:dev {:main-opts ["-m"  "cljs.main"
