@@ -1,0 +1,12 @@
+{:paths
+ ["src" "tests" "resources"]
+
+ :deps
+ {org.clojure/clojurescript {:mvn/version "1.10.597"}}
+
+ :aliases
+ {:dev {:main-opts ["-m"  "cljs.main"
+                    "-ro" "{:static-dir,[\".\",\"out\",\"resources\"]}"
+                    "-w"  "src"
+                    "-c"  "tallex.time-dive"
+                    "-r"]}}}
