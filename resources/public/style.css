@@ -3,7 +3,7 @@
   --color-pink: rgba(241, 50, 50, 1);
 }
 
-body {
+#root {
   margin: 0;
   height: 100vh;
   display: flex;
