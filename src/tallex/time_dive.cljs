@@ -1,3 +1,4 @@
-(ns tallex.time-dive)
+(ns ^:figwheel-hooks tallex.time-dive)
 
-(js/console.log "Hello, Time Dive!")
+(defn ^:after-load re-render []
+  (js/console.log "Hello, Time Dive!"))
